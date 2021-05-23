@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NoticiasTech</title>
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<!-- CUSTOM CSS -->
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="menu-btn">
+    <i class="fas fa-bars fa-2x"></i>
+</div>
+
+<div class="container">
+    <!-- Navigation -->
+    <nav class="nav-main">
+    <!-- Brand -->
+
+    <a href="index.html"><img src="img/brand.png"/></a>
+    
+    <!-- Left Nav -->
+    <ul class="nav-menu">
+    <li>
+    <a href="index.html">Home</a>
+    </li>
+    <li>
+    <a href="about.html">Acerca de</a>
+    </li>
+    <li>
+    <a href="contact.html">Contacto</a>
+    </li>
+    <li>
+    <a href="location.html">Estamos aquí</a>
+    </li>
+    <li>
+    <a href="news.html">Newsletter</a>
+    </li>
+    <li>
+    <a href="form.html">Regístrate</a>
+    </li> 
+    </ul>
+
+    <!-- Right Nav -->
+    <ul class="nav-menu-right">
+    <li>
+    <a href="#">
+    <i class="fas fa-search"></i>
+    </a>
+    </li>
+    </ul>
+    </nav>
+    <hr>
+    
+    <h2>Puedes contactarnos aquí</h2><br>
+    <p>Envíanos tus consultas o sugerencias a través de nuestro email: <a href="mailto:info@noticiastech.com" target="_blank">info@noticiastech.com</a><br><br>
+    <p>También puedes hacerlo rellenando el siguiente formulario:</p><br>
+
+    <form  class="contact_form" action="#" id="contact_form" runat="server">
+        <div>
+            <ul>
+                <li>
+                    <h3>Formulario</h3>
+                    <span class="required_notification">* Datos requeridos</span>
+                </li>
+                <li>
+                    <label for="name">Nombre:</label>
+                    <input type="text" placeholder="John Smith" required />
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" placeholder="info@algo.com" required />
+                    <span class="form_hint">Formato correcto: "name@something.com"</span>
+                </li>
+                <li>
+                    <label for="WhatsApp">WhatsApp:</label>
+                    <input type="Celular" name="Celular" placeholder="54+11 23456789" required />
+                    <span class="form_hint">Formato correcto: "54+11 23456789"</span>
+                </li>
+                <li>
+                    <label for="website">Sitio web:</label>
+                    <input type="url" name="website" placeholder="https//jsdeveloper.com" required pattern="(http|https)://.+" />
+                    <span class="form_hint">Formato correcto: "https://jsdeveloper.com"</span>
+                </li>
+                <li>
+                    <label for="message">Mensaje:</label>
+                    <textarea name="message" cols="40" rows="6" required></textarea>
+                </li>
+                <li>
+                    <button class="submit" type="submit">Enviar mensaje</button>
+                </li>
+            </ul>
+        </div>
+    </form>
+
+
+</body>
+
+    <!-- Follow -->
+    <section class="social">
+    <p>Síguenos en nuetras redes sociales</p>
+    <div class="links">
+    <a href="https://facebook.com" target="_blank">
+    <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://twitter.com" target="_blank">
+    <i class="fab fa-twitter"></i>
+    </a>
+    <a href="https://linkedin.com" target="_blank">
+    <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="https://youtube.com" target="_blank">
+    <i class="fab fa-youtube"></i>
+    </a>
+    </div>
+    </section>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+    <h3>Copyright ©2021 Héctor Fabián Alvarez</h3>
+    </footer>
+    
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+
+
+</html>
